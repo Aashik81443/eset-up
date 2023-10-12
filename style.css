@@ -1,3 +1,4 @@
 @import "./global.css";
 /* components css */
 @import"./components.css/buttons.css";
+@import"./components.css/header.css";
