@@ -1,0 +1,52 @@
+/* fonts: 14, 16, 18, 20, 24, 30, 36, 48, 64,  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #1d1b1b;
+    font-weight: 400;
+    line-height: 34px;
+}
+
+h1 {
+    font-size: 64px;
+    color: #1d1b1b;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: -1.5px;
+}
+
+h2 {
+    font-size: 48px;
+    color: #1d1b1b;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -0.48px;
+}
+
+h3 {
+    font-size: 30px;
+    color: #1D1B1B;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: -1.5px;
+}
+
+p {
+    font-size: 18px;
+    color: #1d1b1b;
+    font-weight: 400;
+    line-height: 34px;  
+}
