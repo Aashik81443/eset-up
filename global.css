@@ -44,6 +44,13 @@ h3 {
     letter-spacing: -1.5px;
 }
 
+h4 {
+    font-size: 24px;
+    color: #0c111f;
+    font-weight: 700;
+    line-height: 28px;
+}
+
 p {
     font-size: 18px;
     color: #1d1b1b;
