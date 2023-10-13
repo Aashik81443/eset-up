@@ -1,0 +1,109 @@
+.ninja-developer{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+    padding: 50px 0;
+
+}
+.ninja-developer p{
+    opacity: 0.6;
+}
+.ninja-developer .media img{
+    width: 630px;
+    height: auto;
+}
+.ninja-developer .discription .discription-list ul li{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+.ninja-developer .discription .discription-list ul li p{
+    margin: 0px;
+}
+.ninja-developer .discription p{
+    margin: 24px 0;
+}
+/* Responsive*/
+@media (max-width: 991.98px){
+    .ninja-developer{
+        gap: 30px;
+        padding: 40px 0;
+    
+    }
+    .ninja-developer p{
+        font-size:16px;
+    }
+    .ninja-developer .media img{
+        width: 500px;
+        height: auto;
+    }
+    .ninja-developer .discription .discription-list ul li{
+        gap: 10px;
+        margin-bottom: 12px;
+    }
+    .ninja-developer .discription p{
+        margin: 20px 0;
+    } 
+    .ninja-developer .discription h2{
+        font-size: 36px;
+        line-height: 50px;
+    } 
+
+}
+@media (max-width: 767.98px){
+    .ninja-developer{
+        gap: 25px;
+        padding: 30px 0;
+    
+    }
+    .ninja-developer p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .ninja-developer .media img{
+        width: 380px;
+        height: auto;
+    }
+    .ninja-developer .discription .discription-list ul li{
+        gap: 8px;
+        margin-bottom: 10px;
+    }
+    .ninja-developer .discription p{
+        margin: 16px 0;
+    } 
+    .ninja-developer .discription h2{
+        font-size: 32px;
+        line-height: 44px;
+    } 
+
+}
+@media (max-width: 575.98px){
+    .ninja-developer{
+        gap: 20px;
+        padding: 30px 0;
+    
+    }
+    .ninja-developer p{
+        font-size:14px;
+        line-height: 20px;
+    }
+    .ninja-developer .media img{
+        width: 300px;
+        height: auto;
+    }
+    .ninja-developer .discription .discription-list ul li{
+        gap: 5px;
+        margin-bottom: 8px;
+    }
+    .ninja-developer .discription p{
+        margin: 12px 0;
+    } 
+    .ninja-developer .discription h2{
+        font-size: 22px;
+        line-height: 28px;
+    } 
+}
+
