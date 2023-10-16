@@ -1,0 +1,79 @@
+.subscription {
+    background-color: #0C111F;
+    padding: 120px 0;
+}
+
+.subscription .wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.subscription .wrapper .col-1 .media {
+    margin-top: 170px;
+    margin-left: -100px;
+}
+
+.subscription .wrapper .col-3 .media {
+    margin-top: 90px;
+}
+
+.subscription .col-2 .description {
+    margin-bottom: 50px;
+}
+
+.subscription .col-2 .description h3 {
+    color: #fff;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: -0.5px;
+}
+
+.subscription .col-2 .description p {
+    color: #9ea0a5;
+    text-align: center;
+    font-size: 16px;
+    line-height: 50px;
+    letter-spacing: -0.5px;
+    margin-top: 5px;
+}
+
+.subscription .col-2 .row-2 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.subscription .col-2 .row-2 .email-input {
+    margin-right: 15px;
+}
+
+.subscription input[type=text],
+select {
+    width: 380px;
+    height: 60px;
+    border-radius: 5px;
+    border-style: none;
+    display: inline-block;
+    padding: 0 30px;
+    background-color: #1f2431;
+}
+
+.subscription ::placeholder {
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.subscription .row-2 .btn {
+    color: #FFF, 0.8;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+    height: 60px;
+    align-items: center;
+    padding: 20px 30px;
+}

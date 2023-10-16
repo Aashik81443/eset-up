@@ -9,6 +9,7 @@ a {
     border-radius: 5px;
     font-size: 20px;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .btn-primary {
