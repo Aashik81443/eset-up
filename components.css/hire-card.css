@@ -8,14 +8,7 @@
     gap: 60px;
     padding: 100px 40px 60px 70px;
     /* text-align: center; */
-}
-.hire-card .btn-wrap .btn-primary {
-    border: 1px solid #EF0178;
-    background-color: #EF0178;
-    color: #ffffff;
-    border-radius: 0;
-    padding: 26px 36px;
-}    
+}  
 .hire-card .discription h3{
     color:#ffffff;
     font-size: 36px;
