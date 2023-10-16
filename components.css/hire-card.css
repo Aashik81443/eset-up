@@ -1,0 +1,65 @@
+.hire-card{
+    background-color: #5243C2;
+    margin: 50px 10px;
+    border-radius: 15px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 60px;
+    padding: 100px 40px 60px 70px;
+    /* text-align: center; */
+}
+.hire-card .btn-wrap .btn-primary {
+    border: 1px solid #EF0178;
+    background-color: #EF0178;
+    color: #ffffff;
+    border-radius: 0;
+    padding: 26px 36px;
+}    
+.hire-card .discription h3{
+    color:#ffffff;
+    font-size: 36px;
+    line-height: 55px;
+    letter-spacing: -1.5px;
+}
+.hire-card .discription img{
+    margin-left: 550px;
+}
+.hire-card .btn-wrap img{
+    margin-left: 240px;
+    margin-bottom: -15px;
+}
+.hire-card .media img{
+    margin-top: -40px;
+}
+
+/* Responsive CSS */
+@media (max-width: 991.98px){
+    .hire-card{
+        gap: 50px;
+        padding: 100px 40px 60px 70px;
+    }
+    .hire-card .btn-wrap .btn-primary {
+        border: 1px solid #EF0178;
+        background-color: #EF0178;
+        color: #ffffff;
+        border-radius: 0;
+        padding: 26px 36px;
+    }    
+    .hire-card .discription h3{
+        color:#ffffff;
+        font-size: 36px;
+        line-height: 55px;
+        letter-spacing: -1.5px;
+    }
+    .hire-card .discription img{
+        margin-left: 550px;
+    }
+    .hire-card .btn-wrap img{
+        margin-left: 100px;
+        margin-bottom: -15px;
+    }
+    .hire-card .media img{
+        margin-top: -40px;
+    }
+}
