@@ -1,12 +1,15 @@
-/* margin: 50px 10px; */
+.hire--{
+    margin: 50px 10px 100px 10px;
+}
+
 .hire-card{
     background-color: #5243C2;
     border-radius: 15px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     gap: 60px;
-    padding: 100px 40px 100px 70px;
+    padding: 100px 50px 100px 70px;
 
 }  
 .hire-card .discription h3{
@@ -26,101 +29,158 @@
 .hire-card .btn-wrap{
     position: relative;
 }
-.hire-card .media{
-    position: relative;
-
+.hire-card .discription::after{
+    position:absolute;
+    content: "";
+    top: -55px;
+    right: -120px;
+    width: 80px;
+    height: 80px;
+    background: url(../images/Group\ 162529.png) no-repeat;
+    z-index: 1;
 }
-.hire-card .media img{
-    position: absolute;
-    top: -20px;
-}
-.hire-card .btn-wrap img{
-    position: absolute;
-    right: -45px;
-    top: -45px;
+.hire-card .btn-wrap::after{
+    position:absolute;
+    content: "";
+    top: -55px;
+    right: -55px;
+    width: 80px;
+    height: 60px;
+    background: url(../images/Group\ 46.png) no-repeat;
+    z-index: 1;
 }
 
 /* Responsive CSS */
 @media (max-width: 991.98px){
+    .hire--{
+        margin: 40px 10px 80px 10px;
+    }
+    
     .hire-card{
-        gap: 30px;
-        padding: 100px 40px 60px 70px;
+        border-radius: 15px;
+        padding: 80px 45px 80px 60px;
+    
     }  
     .hire-card .discription h3{
         font-size: 30px;
-        line-height: 42px;
-        /* letter-spacing: -1.5px; */
+        line-height: 50px;
+    }
+    .hire-card .discription{
+        max-width: 500px;
     }
     .hire-card .discription img{
-        margin-left: 400px;
-        width: 60px;
-        height: auto;
-    }
-    .hire-card .btn-wrap img{
-        margin-left: 190px;
-        margin-bottom: -10px;
+        position: absolute;
+        right: 0px;
         width: 50px;
-        height: auto;
     }
-    .hire-card .media img{
-        margin-top: -40px;
-        width: 54px;
-        height: auto;
+    .hire-card .discription::after{
+        top: -55px;
+        right: -70px;
+        background: url(../images/Group\ 162529.png) no-repeat;
+        z-index: 1;
+    }
+    .hire-card .btn-wrap::after{
+        top: -45px;
+        right: -45px;
+        width: 70px;
+        height: 50px;
+        background: url(../images/Group\ 46.png) no-repeat;
+        z-index: 1;
     }
 }
+
 @media (max-width: 767.98px){
+    .hire--{
+        margin: 50px 10px 100px 10px;
+    }
+    
     .hire-card{
-        gap: 0px;
-        padding: 80px 30px 40px 50px;
+        flex-direction: column;
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 60px;
+        padding: 120px 50px 80px 70px;
+    
     }  
     .hire-card .discription h3{
-        font-size: 24px;
-        line-height: 36px;
-        font-weight: 600px;
-        /* letter-spacing: -1.5px; */
+        color:#ffffff;
+        font-size: 34px;
+        line-height: 52px;
+        text-align: center;
     }
     .hire-card .discription img{
-        margin-left: 400px;
-        width: 50px;
-        height: auto;
-    }
-    .hire-card .btn-wrap img{
-        margin-left: 140px;
-        margin-bottom: -8px;
         width: 40px;
-        height: auto;
     }
-    .hire-card .media img{
-        margin-top: -40px;
-        width: 42px;
-        height: auto;
-    } 
+    .hire-card .discription::after{
+        top: -80px;
+        right: 140px;
+        width: 70px;
+        height: 70px;
+        background-size: cover;
+    }
+    .hire-card .btn-wrap::after{
+        top: -50px;
+        right: -50px;
+        width: 80px;
+        height: 60px;
+        background: url(../images/Group\ 46.png) no-repeat;
+        z-index: 1;
+        background-size: cover;
+    }
+
 }
+
 @media (max-width: 575.98px){
+    .hire--{
+        margin: 50px 10px 100px 10px;
+    }
+    
     .hire-card{
-        gap: 0px;
-        padding: 60px 30px 30px 50px;
+        border-radius: 12px;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 100px 0px 60px 0px;
+    
     }  
     .hire-card .discription h3{
-        font-size: 20px;
-        line-height: 30px;
-        font-weight: 600px;
-        /* letter-spacing: -1.5px; */
+        font-size: 30px;
+        line-height: 45px;
+       
+    }
+    .hire-card .discription{
+        position: relative;
+        max-width: 300px;
+        text-align: center;
+        margin-bottom: 10px;
     }
     .hire-card .discription img{
-        margin-left: 400px;
-        width: 50px;
-        height: auto;
+        position: absolute;
+        right: -20px;
     }
-    .hire-card .btn-wrap img{
-        margin-left: 140px;
-        margin-bottom: -8px;
-        width: 40px;
-        height: auto;
+    .hire-card .btn-wrap{
+        position: relative;
     }
-    .hire-card .media img{
-        margin-top: -40px;
-        width: 42px;
-        height: auto;
-    } 
+    .hire-card .discription::after{
+        top: -70px;
+        right: 100px;
+        width: 60px;
+        height: 60px;
+        background: url(../images/Group\ 162529.png) no-repeat;
+        z-index: 1;
+        background-size: cover;
+    }
+    .hire-card .btn-wrap::after{
+        position:absolute;
+        content: "";
+        top: -35px;
+        right: -40px;
+        width: 60px;
+        height: 40px;
+        background: url(../images/Group\ 46.png) no-repeat;
+        z-index: 1;
+        background-size: cover;
+    }
+    
 }
