@@ -33,6 +33,7 @@ a {
     background-color: rgba(244,150,209,0.1);
     border-radius: 30px;
     color: #F496D1;
+    padding: 14px 48px;
 }
 
 .btn-primary:hover {
