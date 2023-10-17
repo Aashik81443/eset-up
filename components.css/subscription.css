@@ -123,6 +123,16 @@ select {
         height: 50px;
         padding: 16px 26px;
     }
+
+    .wrapper::after {
+        position: absolute;
+        content: "";
+        width: 82px;
+        height: 90px;
+        right: 130px;
+        top: 60px;
+        background: url('../images/Group\ 162529.png') no-repeat;
+    }
 }
 
 @media (max-width: 767.98px) {
