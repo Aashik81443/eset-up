@@ -3,26 +3,11 @@
     padding: 120px 0;
 }
 
-.subscription .wrapper {
-    display: flex;
-    justify-content: center;
-    gap: 100px;
-}
-
-.subscription .wrapper .col-1 .media {
-    margin-top: 170px;
-    margin-left: -100px;
-}
-
-.subscription .wrapper .col-3 .media {
-    margin-top: 90px;
-}
-
-.subscription .col-2 .description {
+.subscription .description {
     margin-bottom: 50px;
 }
 
-.subscription .col-2 .description h3 {
+.subscription .description h3 {
     color: #fff;
     text-align: center;
     font-size: 36px;
@@ -31,22 +16,22 @@
     letter-spacing: -0.5px;
 }
 
-.subscription .col-2 .description p {
+.subscription .description p {
     color: #9ea0a5;
     text-align: center;
     font-size: 16px;
-    line-height: 50px;
+    line-height: 30px;
     letter-spacing: -0.5px;
     margin-top: 5px;
 }
 
-.subscription .col-2 .row-2 {
+.subscription .row-2 {
     display: flex;
     justify-content: center;
-
+    flex-wrap: wrap;
 }
 
-.subscription .col-2 .row-2 .email-input {
+.subscription .row-2 .email-input {
     margin-right: 15px;
 }
 
@@ -76,4 +61,163 @@ select {
     height: 60px;
     align-items: center;
     padding: 20px 30px;
+}
+
+.subscription .wrapper {
+    position: relative;
+    z-index: 0;
+}
+
+.wrapper::before {
+    position: absolute;
+    content: "";
+    width: 68px;
+    height: 46px;
+    left: 100px;
+    top: 180px;
+    background: url('../images/Vector\ 15.png') no-repeat;
+}
+
+.wrapper::after {
+    position: absolute;
+    content: "";
+    width: 82px;
+    height: 90px;
+    right: 130px;
+    top: 80px;
+    background: url('../images/Group\ 162529.png') no-repeat;
+}
+
+/* Responsive*/
+@media (max-width: 991.98px) {
+    .subscription {
+        padding: 100px 0;
+    }
+
+    .subscription .description {
+        margin-bottom: 40px;
+    }
+
+    .subscription .description h3 {
+        font-size: 32px;
+    }
+
+    .subscription .description p {
+        font-size: 14px;
+        margin-top: 0;
+    }
+
+    .subscription ::placeholder {
+        font-size: 14px;
+    }
+
+    .subscription input[type=text],
+    select {
+        width: 360px;
+        height: 50px;
+        padding: 0 26px;
+    }
+
+    .subscription .row-2 .btn {
+        font-size: 16px;
+        height: 50px;
+        padding: 16px 26px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .subscription {
+        padding: 80px 0;
+    }
+
+    .subscription .description h3 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .subscription .description p {
+        font-size: 12px;
+        line-height: 20px;
+        margin-top: 3px;
+    }
+
+
+    .subscription ::placeholder {
+        font-size: 12px;
+    }
+
+    .subscription input[type=text],
+    select {
+        width: 340px;
+        height: 40px;
+        padding: 0 22px;
+    }
+
+    .subscription .row-2 .btn {
+        font-size: 14px;
+        height: 40px;
+        padding: 8px 16px;
+    }
+
+    .wrapper::before {
+        position: absolute;
+        content: "";
+        width: 56px;
+        height: 30px;
+        left: 50px;
+        top: 150px;
+        background: url('../images/Vector\ 15.png') no-repeat;
+        background-size: cover;
+    }
+
+    .wrapper::after {
+        position: absolute;
+        content: "";
+        width: 70px;
+        height: 70px;
+        right: 20px;
+        top: 30px;
+        background: url('../images/Group\ 162529.png') no-repeat;
+        background-size: cover;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .subscription {
+        padding: 60px 0;
+    }
+
+    .subscription .description h3 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+    .wrapper::before {
+        position: absolute;
+        content: "";
+        width: 44px;
+        height: 26px;
+        left: 10px;
+        top: 150px;
+        background: url('../images/Vector\ 15.png') no-repeat;
+        background-size: cover;
+    }
+
+    .wrapper::after {
+        position: absolute;
+        content: "";
+        width: 60px;
+        height: 60px;
+        right: 10px;
+        top: 40px;
+        background: url('../images/Group\ 162529.png') no-repeat;
+        background-size: cover;
+    }
+}
+
+@media (max-width: 512px) {
+    .subscription .row-2 .email-input {
+        margin-bottom: 15px;
+        margin-right: 0px;
+    }
 }
