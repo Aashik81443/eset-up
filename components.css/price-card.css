@@ -1,6 +1,9 @@
 .price-card {
     max-width: 218px;
 }
+.price-card .btn {
+    font-size: 16px;
+}
 
 .price-card p {
     color: #848199;
@@ -21,8 +24,12 @@
     line-height: 46px;
 }
 
+.price-card .col-2 {
+    margin-top: 8px;
+}
+
 .price-card .col-2 h3 {
-    padding: 0 0px 10px 0;
+    padding: 0 0px 14px 0;
     color: #231D4F;
     font-size: 28px;
     line-height: normal;
@@ -36,7 +43,7 @@
 }
 
 .price-card .col-3 {
-    margin: 35px 0 25px 0;
+    margin: 20px 0 25px 0;
 }
 
 .price-card .btn-wrap {
@@ -69,6 +76,7 @@
 .premium .content {
     margin: 0px 30px;
     padding: 20px 0 42px 0;
+    background: url('../images/card-bg.png') no-repeat;
 }
 
 .premium p {
@@ -87,4 +95,9 @@
 .premium .btn-wrap .btn-tertiary {
     color: #FFFFFF;
     background-color: #EF0178;
+}
+
+.premium .btn-tertiary:hover {
+    color: #EF0178;
+    background-color: #fff;
 }
