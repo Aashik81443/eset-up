@@ -8,7 +8,7 @@
     position: relative;
 }
 
-.testimonials .testimony-wrapper .col-1{
+.testimonials .testimony-wrapper .col-1 {
     margin-right: 92px;
     margin-left: 96px;
 }
@@ -17,7 +17,7 @@
     max-width: 520px;
 }
 
-.testimonials .testimony-wrapper .col-2 .description h2{
+.testimonials .testimony-wrapper .col-2 .description h2 {
     color: #0C111F;
     margin-bottom: 25px;
 }
@@ -40,6 +40,7 @@
     border: 8px solid #f5f5f5;
     border-radius: 50px;
 }
+
 .testimony-wrapper::after {
     position: absolute;
     content: "";
@@ -51,4 +52,113 @@
     background-size: cover;
     border: 8px solid #f5f5f5;
     border-radius: 50px;
+}
+
+@media (max-width: 991.98px) {
+    .testimonials {
+        padding: 100px 0;
+    }
+
+    .testimonials .testimony-wrapper .col-1 {
+        margin-right: 70px;
+        margin-left: 80px;
+    }
+
+    .testimonials .testimony-wrapper .col-2 .description h2 {
+        margin-bottom: 20px;
+        font-size: 32px;
+        line-height: 50px;
+    }
+
+    .testimonials .testimony-wrapper .col-2 .description p {
+        font-size: 18px;
+    }
+
+    .testimony-wrapper::before {
+        width: 40px;
+        height: 40px;
+        top: 44px;
+
+    }
+
+    .testimony-wrapper::after {
+        width: 40px;
+        height: 40px;
+        top: 116px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .testimonials .testimony-wrapper .col-1 {
+        margin-right: 50px;
+    }
+
+    .testimonials .testimony-wrapper .col-2 .description h2 {
+        margin-bottom: 20px;
+        font-size: 24px;
+        line-height: 38px;
+    }
+
+    .testimonials .testimony-wrapper .col-2 .description p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .testimony-wrapper::before {
+        width: 36px;
+        height: 36px;
+    }
+
+    .testimony-wrapper::after {
+        width: 36px;
+        height: 36px;
+        top: 100px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .testimonials {
+        padding: 48px 0;
+    }
+
+    .testimonials .testimony-wrapper {
+        display: flex;
+        position: relative;
+        flex-direction: column-reverse;
+    }
+
+    .testimonials .testimony-wrapper .col-1 {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .testimonials .testimony-wrapper .col-2 {
+        text-align: center;
+    }
+    .testimonials .testimony-wrapper .col-2 .description h2 {
+        margin-bottom: 10px;
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .testimonials .testimony-wrapper .col-2 .description p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .testimony-wrapper::before {
+        width: 30px;
+        height: 30px;
+        top: 144px;
+        left: 60px;
+    }
+
+    .testimony-wrapper::after {
+        width: 30px;
+        height: 30px;
+        top: 194px;
+        left: 60px;
+
+    }
 }

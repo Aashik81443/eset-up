@@ -40,7 +40,7 @@
 
 @media (max-width: 991.98px) {
     .testimonial-card {
-        width: 496px;
+        width: 400px;
         height: auto;
         padding-left: 20px;
         padding-right: 48px;
@@ -69,7 +69,7 @@
 
 @media (max-width: 767.98px) {
     .testimonial-card {
-        width: 466px;
+        width: 300px;
         height: auto;
         padding-left: 16px;
         padding-right: 44px;
@@ -108,7 +108,7 @@
 
 @media (max-width: 575.98px) {
     .testimonial-card {
-        width: 436;
+        width: 300;
         height: auto;
         padding-left: 12px;
         padding-right: 40px;
