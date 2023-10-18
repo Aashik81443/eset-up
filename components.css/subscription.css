@@ -219,7 +219,7 @@ select {
         width: 60px;
         height: 60px;
         right: 10px;
-        top: 40px;
+        /* top: 40px; */
         background: url('../images/Group\ 162529.png') no-repeat;
         background-size: cover;
     }
