@@ -162,3 +162,19 @@
 
     }
 }
+@media (max-width: 569.98px) {
+    .testimony-wrapper::before {
+        width: 30px;
+        height: 30px;
+        top: 180px;
+        left: 40px;
+    }
+
+    .testimony-wrapper::after {
+        width: 30px;
+        height: 30px;
+        top: 230px;
+        left: 40px;
+
+    }
+}
