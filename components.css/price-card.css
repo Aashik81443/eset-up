@@ -135,13 +135,19 @@
         justify-content: center;
     }
 
-    .price-card .col-2 h3,
-    p {
+    .price-card .col-2 h3 {
         text-align: center;
     }
 
-    .premium .col-2 h3,
-    p {
+    .price-card .col-2 p {
+        text-align: center;
+    }
+
+    .premium .col-2 h3 {
+        text-align: center;
+    }
+
+    .premium .col-2 p {
         text-align: center;
     }
 
